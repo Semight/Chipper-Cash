@@ -85,6 +85,7 @@ const StyledHome = styled.div`
         }
 
         .right-container {
+            // width: 100%;
             flex: 1;
             img {
                 width: 100%;
