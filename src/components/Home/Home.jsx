@@ -128,13 +128,15 @@ const StyledHome = styled.div`
             display: flex;
             align-items: flex-start;
             justify-content: flex-end;
-            column-gap: 3rem;
+            // column-gap: 3rem;
+            column-gap: 3rem
 
             .stats {
                 display: block;
                 max-width: 220px;
 
                 h2 {
+                    // text-align: center;
                     text-align: center;
                     color: #fff;
                     font-size: 2rem;
