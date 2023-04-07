@@ -93,6 +93,8 @@ const StyledHome = styled.div`
             }
         }
 
+        
+
     }
 
 
@@ -129,7 +131,7 @@ const StyledHome = styled.div`
             align-items: flex-start;
             justify-content: flex-end;
             // column-gap: 3rem;
-            column-gap: 3rem
+            column-gap: 3rem;
 
             .stats {
                 display: block;
@@ -152,7 +154,50 @@ const StyledHome = styled.div`
             }
         }
     }
-    `;
+
+    @media (max-width: 768px){
+        .container {
+            display: block;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            padding-top: 3rem;
+
+            .left-container {
+                h1 {
+                    width: 100%;
+                    margin-top: 2rem;
+                }
+                .l-c-text {
+                    width: 100%;
+                }
+
+                .scan {
+                    display: flex;
+                    gap: 1rem;
+                }
+            }
+
+        }
+        
+        .container-footer {
+            display: block;
+            margin-left: 1rem;
+            margin-right: 1rem;
+
+            .stats-wrapper {
+                margin-top: 1rem;
+                column-gap: 0.5rem;
+    
+                .stats {
+    
+                    h2 {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+`;
 
 const Home = () => {
   return (

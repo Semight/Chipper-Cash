@@ -6,6 +6,7 @@ export const StyledNavBar = Styled.nav`
     font-family: 'Mulish', sans-serif;
     background-color: #222654;
     position: fixed;
+
 `;
 
 export const FlexBar = Styled.div`
