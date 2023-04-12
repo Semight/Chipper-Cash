@@ -24,7 +24,7 @@ const StyledHome = styled.div`
             h1 {
                 font-size: 45px;
                 font-weight: 800;
-                width: 60%;
+                width: 75%;
                 margin-top: 4rem;
             }
 
