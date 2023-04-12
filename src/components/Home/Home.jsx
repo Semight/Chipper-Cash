@@ -213,12 +213,12 @@ const Home = () => {
                     <div className="scan-text">
                         <p className="scan-d">Scan to download</p>
                         <ul>
-                            <a href="#" className="app-download">
+                            <a href="/" className="app-download">
                                 <div className="store-icon"><AiFillApple /></div>
                                 <p className="download-btn">App Store</p>
                             </a>
 
-                            <a href="#" className="app-download">
+                            <a href="/" className="app-download">
                                 <div className="store-icon"><FaGooglePlay /></div>
                                 <p className="download-btn">Google Play</p>
                             </a>

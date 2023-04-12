@@ -682,7 +682,7 @@ const Product = () => {
                 out of 5
               </p>
 
-              <a href="#" className="app-download">
+              <a href="/" className="app-download">
                 <div className="store-icon"><FaGooglePlay /></div>
                 <p className="download-btn">Google Play</p>
               </a>
@@ -694,7 +694,7 @@ const Product = () => {
                 out of 5
               </p>
 
-              <a href="#" className="app-download">
+              <a href="/" className="app-download">
                 <div className="store-icon"><AiFillApple /></div>
                 <p className="download-btn">App Store</p>
               </a>

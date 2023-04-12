@@ -304,7 +304,7 @@ const Support = () => {
             <div className="container-large">
                 <div className="partners" >
                     <h2 className="partners-content">Chipper-sponsored supporters groups attended the 2022 World Cup in Qatar!</h2>
-                    <a href="#">
+                    <a href="/">
                         <div className="bg-blue"></div>
                         <p className="bg-text">Learn More</p>
                     </a>

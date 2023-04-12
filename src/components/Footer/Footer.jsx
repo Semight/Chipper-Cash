@@ -341,7 +341,7 @@ const Footer = () => {
                         <div className="cta-content">
                             <h3>Move Your Money Freely</h3>
                             <div className="button-group">
-                                <a href="#" className="app-download">
+                                <a href="/" className="app-download">
                                     <div className="store-icon"><AiFillApple /></div>
                                     <div className="downloads">
                                         <p className="download-text">Download on the</p>
@@ -350,7 +350,7 @@ const Footer = () => {
                                     
                                 </a>
 
-                                <a href="#" className="app-download">
+                                <a href="/" className="app-download">
                                     <div className="store-icon"><FaGooglePlay /></div>
                                     <div className="downloads">
                                         <p className="download-text">Download on the</p>

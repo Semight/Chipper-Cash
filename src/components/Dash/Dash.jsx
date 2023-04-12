@@ -34,7 +34,7 @@ const StyledDash = styled.div`
 const Dash = ({paragraph}) => {
   return (
     <StyledDash>
-      <a href="#">
+      <a href="/">
         <div className="bg-blue"></div>
         <p className="bg-text">{paragraph}</p>
       </a>
