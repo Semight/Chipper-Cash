@@ -435,6 +435,21 @@ const StyledProduct = styled.div`
       }
   }
 
+  @media (max-width: 812px){
+    .bg-container {
+      .partners {
+        .small-container {
+          .play-icon {
+            width: 36px;
+            height: 36px;
+            bottom: 4.2rem;
+            right: 12.1rem;
+          }
+        }
+      }
+    }
+  }
+
   @media (max-width: 768px){
     .bg-container {
       text-align: -webkit-center;
