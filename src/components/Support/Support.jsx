@@ -237,6 +237,63 @@ const StyledSupport = styled.div`
             color: #acfce3;
         }
     }
+
+    @media (max-width: 768px){
+        .partnership {
+            padding-left: 1rem;
+
+            .container-large {
+                .partners-pics {
+                    display: none;
+                }
+            }
+
+        }
+        .football {
+            display: block;
+            padding-left: 1rem;
+
+            .players {
+                .image {
+                    column-gap: 0.5rem;
+                }
+            }
+        }
+
+        .chipper-story {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            display: block;
+        }
+
+        .save-container {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            display: block;
+
+            .d-flex, .b-flex {
+                display: block;
+
+                .contents-box {
+                    h2 {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .chipper-team {
+            padding-left: 1rem;
+            width: 100%;
+            height: 17rem;
+            background-position: -3rem 0rem;
+
+            h2 {
+                width: 100%;
+                padding-top: 6.5rem;
+            }
+        }
+    }
 `;
 
 
@@ -247,7 +304,7 @@ const Support = () => {
             <div className="container-large">
                 <div className="partners" >
                     <h2 className="partners-content">Chipper-sponsored supporters groups attended the 2022 World Cup in Qatar!</h2>
-                    <a href="#">
+                    <a href="/">
                         <div className="bg-blue"></div>
                         <p className="bg-text">Learn More</p>
                     </a>

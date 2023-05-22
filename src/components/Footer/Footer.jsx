@@ -277,6 +277,59 @@ const StyledFooter = styled.div`
             }
         }
     }
+
+    @media (max-width: 768px){
+        .empty-section {
+            padding-top: 13rem;
+
+            .footer-container {
+                padding-left: 1rem;
+                padding-right: 1rem;
+    
+                .footer-cta {
+                    width: 92%;
+                    height: 16rem;
+                    bottom: 29rem;
+                    padding: 0rem;
+    
+                    .cta-content {
+                        h3 {
+                            font-size: 2rem;
+                        }
+
+                        .button-group {
+                            display: block;
+                            text-align: -webkit-center;
+
+                            .app-download {
+                                width: 14rem;
+                                margin-bottom: 1rem;
+                            }
+                        }
+                    }
+                }
+
+                .footer-top {
+                    display: block;
+
+                    .footer-top-right {
+                        .footer-tr {
+                            display: block;
+
+                            .support-link {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+
+                .footer-bottom {
+                    display: block;
+                }
+            }
+        }
+
+    }
 `;
 
 const Footer = () => {
@@ -288,7 +341,7 @@ const Footer = () => {
                         <div className="cta-content">
                             <h3>Move Your Money Freely</h3>
                             <div className="button-group">
-                                <a href="#" className="app-download">
+                                <a href="/" className="app-download">
                                     <div className="store-icon"><AiFillApple /></div>
                                     <div className="downloads">
                                         <p className="download-text">Download on the</p>
@@ -297,7 +350,7 @@ const Footer = () => {
                                     
                                 </a>
 
-                                <a href="#" className="app-download">
+                                <a href="/" className="app-download">
                                     <div className="store-icon"><FaGooglePlay /></div>
                                     <div className="downloads">
                                         <p className="download-text">Download on the</p>

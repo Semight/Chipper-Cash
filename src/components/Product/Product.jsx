@@ -94,7 +94,6 @@ const StyledProduct = styled.div`
           img {
             width: 100%;
             height: 100%;
-            min-width: 118px;
             object-fit: cover;
             object-position: 50% 50%;
           }
@@ -149,6 +148,7 @@ const StyledProduct = styled.div`
         }
       }
     }
+
   }
 
   .comment-container {
@@ -434,6 +434,126 @@ const StyledProduct = styled.div`
         }
       }
   }
+
+  @media (max-width: 812px){
+    .bg-container {
+      .partners {
+        .small-container {
+          .play-icon {
+            width: 36px;
+            height: 36px;
+            bottom: 4.2rem;
+            right: 12.1rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px){
+    .bg-container {
+      text-align: -webkit-center;
+      padding-top: 2rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+
+      .container-large {
+        display: block;
+      }
+
+      .countries {
+        padding-bottom: 4rem;
+
+        .country-flags {
+          column-gap: 0.5rem;
+
+          .flags {
+            height: 2.2rem;
+            img {
+              min-width: 30px;
+            }
+          }
+        }  
+      }
+
+      .partners {
+        h2 {
+          margin-left: 1rem;
+          margin-right: 1rem;
+        }
+
+        p {
+          margin-left: 1rem;
+          margin-right: 1rem;
+        }
+
+        .small-container {
+          .burna-pics {
+            width: 22rem;
+            margin-left: 0rem;
+          }
+
+          .play-icon {
+            width: 35px;
+            height: 35px;
+            bottom: 6.7rem;
+            right: 0rem;
+          }
+        }
+      }
+    }
+    .comment-container {
+      padding-top: 2rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      display: block;
+
+      .lf-comment {
+        .second-c {
+          margin-left: 0rem;
+        }
+      }
+    }
+
+    .goals-container {
+      h3 {
+        margin-left: 1rem;
+        margin-top: 2rem;
+        margin-right: 1rem;
+      }
+
+      .small-container {
+        .video-thumbnail {
+          width: 24rem;
+          margin-left: 0rem;
+        }
+
+        .play-icon {
+          width: 45px;
+          height: 45px;
+          bottom: 9rem;
+          right: 0rem;
+        }
+      }
+    }
+
+    .community-section {
+      padding-top: 2rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      display: block;
+      padding-bottom: 2rem;
+      
+      .star-cards {
+        .usa-card {
+          margin-left: 1rem;
+          margin-right: 1rem;
+        }
+        .africa-cards {
+          display: block;
+        }
+      }
+    }
 `;
 
 const Product = () => {
@@ -576,7 +696,7 @@ const Product = () => {
                 out of 5
               </p>
 
-              <a href="#" className="app-download">
+              <a href="/" className="app-download">
                 <div className="store-icon"><FaGooglePlay /></div>
                 <p className="download-btn">Google Play</p>
               </a>
@@ -588,7 +708,7 @@ const Product = () => {
                 out of 5
               </p>
 
-              <a href="#" className="app-download">
+              <a href="/" className="app-download">
                 <div className="store-icon"><AiFillApple /></div>
                 <p className="download-btn">App Store</p>
               </a>

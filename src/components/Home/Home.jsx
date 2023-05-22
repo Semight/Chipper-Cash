@@ -24,7 +24,7 @@ const StyledHome = styled.div`
             h1 {
                 font-size: 45px;
                 font-weight: 800;
-                width: 60%;
+                width: 75%;
                 margin-top: 4rem;
             }
 
@@ -93,6 +93,8 @@ const StyledHome = styled.div`
             }
         }
 
+        
+
     }
 
 
@@ -129,7 +131,7 @@ const StyledHome = styled.div`
             align-items: flex-start;
             justify-content: flex-end;
             // column-gap: 3rem;
-            column-gap: 3rem
+            column-gap: 3rem;
 
             .stats {
                 display: block;
@@ -152,7 +154,50 @@ const StyledHome = styled.div`
             }
         }
     }
-    `;
+
+    @media (max-width: 768px){
+        .container {
+            display: block;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            padding-top: 3rem;
+
+            .left-container {
+                h1 {
+                    width: 100%;
+                    margin-top: 2rem;
+                }
+                .l-c-text {
+                    width: 100%;
+                }
+
+                .scan {
+                    display: flex;
+                    gap: 1rem;
+                }
+            }
+
+        }
+        
+        .container-footer {
+            display: block;
+            margin-left: 1rem;
+            margin-right: 1rem;
+
+            .stats-wrapper {
+                margin-top: 1rem;
+                column-gap: 0.5rem;
+    
+                .stats {
+    
+                    h2 {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+`;
 
 const Home = () => {
   return (
@@ -168,12 +213,12 @@ const Home = () => {
                     <div className="scan-text">
                         <p className="scan-d">Scan to download</p>
                         <ul>
-                            <a href="#" className="app-download">
+                            <a href="/" className="app-download">
                                 <div className="store-icon"><AiFillApple /></div>
                                 <p className="download-btn">App Store</p>
                             </a>
 
-                            <a href="#" className="app-download">
+                            <a href="/" className="app-download">
                                 <div className="store-icon"><FaGooglePlay /></div>
                                 <p className="download-btn">Google Play</p>
                             </a>
