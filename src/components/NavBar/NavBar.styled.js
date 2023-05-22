@@ -7,7 +7,6 @@ export const StyledNavBar = Styled.nav`
     background-color: #222654;
     position: fixed;
     z-index: 1000;
-
 `;
 
 export const FlexBar = Styled.div`
