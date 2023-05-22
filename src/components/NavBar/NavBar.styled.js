@@ -6,6 +6,7 @@ export const StyledNavBar = Styled.nav`
     font-family: 'Mulish', sans-serif;
     background-color: #222654;
     position: fixed;
+    z-index: 1000;
 `;
 
 export const FlexBar = Styled.div`
@@ -28,7 +29,7 @@ export const FlexBar = Styled.div`
             font-size: 10px;
         }
     }    
-`
+`;
 export const Ul = Styled.div`
     display: flex;
     list-style-type: none;
@@ -67,7 +68,8 @@ export const Ul = Styled.div`
         flex-flow: column nowrap;
         background-color: #222654;
         position: fixed;
-        transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
+        transform: ${({ open }) =>
+          open ? "translateX(0)" : "translateX(100%)"};
         top: 0;
         right: 0;
         height: 260px;
